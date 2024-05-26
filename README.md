@@ -12,3 +12,4 @@ We are https://github.com/Klipper3d/klipper/ Updated relevant functions on the b
 
 This fork is to add in the source files necessary to compile Klipper on a Raspberry Pi to use instead of the Nebula Pad.
 Use Kiauh to install Klipper (https://github.com/dw-0/kiauh.git), then compile the printer firmware using the make menuconfig etc...
+You need to downgrade to gcc-arm-none-eabi_7-2018-q2-6_arm64.deb to get the klipper firmware to compile
